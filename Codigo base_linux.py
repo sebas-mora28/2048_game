@@ -84,7 +84,7 @@ def seleccionar_base():
     
     ### Funcion para cargar la imagen del fondo de la base###
     FondoBase=cargarImg('FondoBases.gif')
-    Fondo_base=Label(Canvas_base, image = fondoImg,bg='light yellow')
+    Fondo_base=Label(Canvas_base, image = FondoBase,bg='light yellow')
     Fondo_base.place(x=-40,y=-100)
     Fondo_base.photo = FondoBase
     Fondo_base.lower()
