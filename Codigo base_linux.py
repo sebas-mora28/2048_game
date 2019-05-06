@@ -132,11 +132,11 @@ def ventana_juego(Jugador):
     Canvas_juego.place(x=0,y=0)
 
     #Cargar cuadrícula del juego
-    fondoImg=cargarImg('Fondo.gif')
-    F_juego=Label(Canvas_juego, image = fondoImg,bg='light yellow')
-    F_juego.place(x=100,y=130)
-    F_juego.photo = fondoImg
-    F_juego.lower()
+    Cuadricula=cargarImg('Fondo.gif')
+    Cuadricula_juego=Label(Canvas_juego, image = Cuadricula,bg='light yellow')
+    Cuadricula_juego.place(x=100,y=130)
+    Cuadricula_juego.photo = fondoImg
+    Cuadricula_juego.lower()
 
     #Label con la puntuacion y el tiempo de la partida
     Puntuacion = Label(Canvas_juego,text= "Puntuacion:",font=('Arial',20),bg="light yellow")
