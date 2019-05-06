@@ -158,7 +158,7 @@ def ventana_juego(Jugador):
             return "Datos invalidos"
 
     def recorrer_puntajes_aux(leaderboard,i,num,nombre):
-        if (i < len(leaderboard)-6):  
+        if (i < len(leaderboard)-4):  
             if (num >= int(leaderboard['Puntaje{}'.format(i)])):
 
                 num2 = int(leaderboard['Puntaje{}'.format(i)])
@@ -623,7 +623,14 @@ def ventana_juego(Jugador):
             NuevosDatos = crearDatos(Jugador,str(Puntaje))
             Puntajes = AgregarDatos(memoria,NuevosDatos)
             print(Puntajes)
-            Mensaje = messagebox.showinfo("","Tu puntaje es de {}".format(str(Puntaje)))
+            if (decimal):
+                Mensaje = messagebox.showinfo("","Se te agotó el tiempo, tu puntaje es de {}".format(str(Puntaje)))
+            if (binario):
+                 Mensaje = messagebox.showinfo("","Se te agotó el tiempo, tu puntaje es de {} = {}".format(str(dec_bin(Puntaje)),str(Puntaje)))
+            if (octal):
+                Mensaje = messagebox.showinfo("","Se te agotó el tiempo, tu puntaje es de {} = {}".format(str(octal_conv(Puntaje)),str(Puntaje)))
+            if (hexadecimal):
+                Mensaje = messagebox.showinfo("","Se te agotó el tiempo, tu puntaje es de {} = {}".format(str(hexa(Puntaje)),str(Puntaje)))
             volver_menu()
         else:
             return False
