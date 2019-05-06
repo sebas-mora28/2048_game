@@ -583,9 +583,7 @@ def ventana_juego(Jugador):
                 Mensaje = messagebox.showinfo("","Se te agotó el tiempo, tu puntaje es de {} = {}".format(str(octal_conv(Puntaje)),str(Puntaje)))
             if (hexadecimal):
                 Mensaje = messagebox.showinfo("","Se te agotó el tiempo, tu puntaje es de {} = {}".format(str(hexa(Puntaje)),str(Puntaje)))
-            Juego.destroy()
-            leaderboard()
-            root.deiconify()
+            volver_menu()
         else:
             return
 
