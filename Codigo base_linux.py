@@ -262,7 +262,7 @@ def ventana_juego(Jugador):
     Cuadro15 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro15.place(x=255,y=380)
 
-    Cuadro16 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro16 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro16.place(x=380,y=380)
     
     """GLobales utlizadas en el juego"""
