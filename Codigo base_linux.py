@@ -32,11 +32,11 @@ def cargarImg(nombre):
     return imagen
 
 #### Cargar la imagen del fondo del menu###
-fondoImg=cargarImg('Menu2.gif')
-F_juego=Label(Canvas_root, bg='red')
-F_juego.place(x=0,y=0)
-F_juego.config(image=fondoImg)
-F_juego.lower()
+FondoMenu=cargarImg('Menu2.gif')
+Fondo_Menu=Label(Canvas_root, bg='red')
+Fondo_Menu.place(x=0,y=0)
+Fondo_Menu.config(image=FondoMenu)
+Fondo_Menu.lower()
 
 
 
@@ -83,11 +83,11 @@ def seleccionar_base():
     Canvas_base.place(x=0,y=0)
     
     ### Funcion para cargar la imagen del fondo de la base###
-    fondoImg=cargarImg('FondoBases.gif')
-    F_base=Label(Canvas_base, image = fondoImg,bg='light yellow')
-    F_base.place(x=-40,y=-100)
-    F_base.photo = fondoImg
-    F_base.lower()
+    FondoBase=cargarImg('FondoBases.gif')
+    Fondo_base=Label(Canvas_base, image = fondoImg,bg='light yellow')
+    Fondo_base.place(x=-40,y=-100)
+    Fondo_base.photo = FondoBase
+    Fondo_base.lower()
 
     
     ### Label con informacion ####
