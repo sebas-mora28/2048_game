@@ -217,49 +217,49 @@ def ventana_juego(Jugador):
 
 
     #Labels de la cuadricula
-    Cuadro1 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro1 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro1.place(x=5,y=7)
 
-    Cuadro2 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro2 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro2.place(x=130,y=7)
 
-    Cuadro3 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro3 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro3.place(x=255,y=7)
 
-    Cuadro4 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro4 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro4.place(x=380,y=7)
 
-    Cuadro5 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro5 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro5.place(x=5,y=130)
 
-    Cuadro6 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro6 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro6.place(x=130,y=130)
 
-    Cuadro7 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro7 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro7.place(x=255,y=130)
 
-    Cuadro8 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro8 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro8.place(x=380,y=130)
 
-    Cuadro9 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro9 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro9.place(x=5,y=255)
 
-    Cuadro10 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro10 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro10.place(x=130,y=255)
 
-    Cuadro11 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro11 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro11.place(x=255,y=255)
 
-    Cuadro12 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro12 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro12.place(x=380,y=255)
 
-    Cuadro13 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro13 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro13.place(x=5,y=380)
 
-    Cuadro14 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro14 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro14.place(x=130,y=380)
 
-    Cuadro15 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
+    Cuadro15 = Label(Cuadricula_juego,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
     Cuadro15.place(x=255,y=380)
 
     Cuadro16 = Label(Cuadricula,text="",width=6,height=3,font=("Arial",25),bg="NavajoWhite3")
